@@ -1,0 +1,467 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FAFAFA;
+    font-family: 'Shippori Mincho', serif;
+    font-family: "秀風體W3";
+
+}
+
+@font-face {
+    font-family: "秀風體W3";
+    src: url(秀風體W3.ttc);
+}
+
+.brandimg {
+    margin-top: 90px;
+}
+
+.rr {
+    float: none;
+    margin: 0px;
+    width: 100%;
+    height: 700px;
+    text-align: center;
+    margin-bottom: 10px;
+    position: relative;
+
+}
+
+.shape-ex2 {
+    animation-name: fadee;
+    animation-duration: 4s;
+    position: absolute;
+    text-align: center;
+    left: 250px;
+    right: 250px;
+    top: 350px;
+    z-index: 1;
+    color: aliceblue;
+    font-size: 80px;
+}
+
+@keyframes fadee {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+
+.clear {
+    clear: both;
+}
+
+article {
+    float: left;
+    width: 60%;
+    padding: 80px 0px 110px 160px;
+    font-size: 25px;
+    text-align: left;
+    /* font-family: 'Times New Roman', Times, serif; */
+    line-height: 90px;
+}
+
+aside {
+    float: right;
+    width: 40%;
+    padding-top: 120px;
+    padding-bottom: 40px;
+    padding-left: 70px;
+
+
+}
+
+/* 圖片效果 */
+.pics {
+    position: relative;
+}
+
+.pics img {
+    position: absolute;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+}
+
+.pics img:last-child:hover {
+    opacity: 0;
+}
+
+.chimi {
+    font-family: "秀風體W3";
+    font-size: 50px;
+}
+
+
+
+.logo {
+    text-align: right;
+    float: left;
+    width: 50%;
+    height: 270px;
+    padding-right: 100px;
+
+}
+
+/* 圖片放大 */
+.bigger {
+    width: 360px;
+    height: 360px;
+    overflow: hidden;
+
+}
+
+.bigger img {
+    transform: scale(1, 1);
+    transition: all 0.8s ease-out;
+}
+
+.bigger img:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.pa {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1150px;
+
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.named {
+    float: left;
+    width: 40%;
+    height: 270px;
+    text-align: left;
+    font-size: 28px;
+    padding-top: 25px;
+    line-height: 70px;
+
+}
+
+.fade {
+    opacity: 0;
+}
+
+.bg1 {
+    background-image: url(image/bg1.png);
+    background-size: contain;
+
+}
+
+.ee {
+    position: absolute;
+    float: left;
+    width: 70%;
+    background-color: #caa3abab;
+    height: 400px;
+    margin-top: 380px;
+    z-index: 1;
+    margin-left: 0px;
+    padding-top: 40px;
+}
+
+.tt {
+    position: relative;
+    float: right;
+    padding-top: 100px;
+    width: 40%;
+    padding-right: 0px;
+}
+
+.intro {
+    color: white;
+    text-align: left;
+    font-size: 30px;
+    padding-top: 40px;
+    /* padding-bottom: 200px; */
+    padding-left: 160px;
+
+}
+
+.special {
+    line-height: 70px;
+    font-size: 35px;
+    padding-left: 100px;
+    padding-top: 120px;
+}
+
+.pa {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.eve {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 35px;
+    line-height: 70px;
+    padding-bottom: 60px;
+
+}
+
+/* QA */
+.qa {
+    text-align: center;
+    color: #7575A9;
+    font-size: 45px;
+    padding-bottom: 40px;
+    padding-top: 60px;
+}
+
+.flip {
+    margin-left: 140px;
+    padding: 1px;
+    text-align: center;
+    height: 40px;
+    width: 1280px;
+    cursor: pointer;
+    font-family: "秀風體W3";
+    font-size: 25px;
+    padding-bottom: 40px;
+
+}
+
+.panel {
+    margin-left: 130px;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 1280px;
+    border: solid 3px #caa3ab;
+    display: none;
+    font-family: "秀風體W3";
+    font-size: 25px;
+    padding-left: 10px;
+    line-height: 40px;
+}
+
+.flip1 {
+    margin-left: 140px;
+    /* padding: 1px; */
+    text-align: center;
+    height: 40px;
+    width: 1280px;
+    cursor: pointer;
+    font-family: "秀風體W3";
+    font-size: 25px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+
+}
+
+.panel1 {
+    margin-left: 130px;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 1280px;
+    border: solid 3px #caa3ab;
+    display: none;
+    font-family: "秀風體W3";
+    font-size: 25px;
+    line-height: 40px;
+
+}
+
+.flip2 {
+    margin-left: 140px;
+    padding: 1px;
+    text-align: center;
+    height: 40px;
+    width: 1280px;
+    cursor: pointer;
+    font-family: "秀風體W3";
+    font-size: 25px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+
+}
+
+.panel2 {
+    margin-left: 130px;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 1280px;
+    border: solid 3px #caa3ab;
+    display: none;
+    font-family: "秀風體W3";
+    font-size: 25px;
+    line-height: 40px;
+}
+
+.flip3 {
+    margin-left: 140px;
+    padding: 1px;
+    text-align: center;
+    height: 40px;
+    width: 1280px;
+    cursor: pointer;
+    font-family: "秀風體W3";
+    font-size: 25px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+
+
+}
+
+.panel3 {
+    margin-left: 130px;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 1280px;
+    border: solid 3px #caa3ab;
+    display: none;
+    font-family: "秀風體W3";
+    font-size: 25px;
+    line-height: 40px;
+}
+
+.flip4 {
+    margin-left: 140px;
+    padding: 1px;
+    text-align: center;
+    height: 40px;
+    width: 1280px;
+    cursor: pointer;
+    font-family: "秀風體W3";
+    font-size: 25px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+
+}
+
+.panel4 {
+    margin-left: 130px;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 1280px;
+    border: solid 3px #caa3ab;
+    display: none;
+    font-family: "秀風體W3";
+    font-size: 25px;
+    line-height: 40px;
+}
+
+
+.flip5 {
+    margin-left: 140px;
+    padding: 1px;
+    text-align: center;
+    height: 40px;
+    width: 1280px;
+    cursor: pointer;
+    font-family: "秀風體W3";
+    font-size: 25px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+
+}
+
+.panel5 {
+    margin-left: 130px;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 1280px;
+    border: solid 3px #caa3ab;
+    display: none;
+    font-family: "秀風體W3";
+    font-size: 25px;
+    line-height: 40px;
+}
+
+/* contact */
+
+
+.font2 {
+    width: 350px;
+    height: 150px;
+    margin: 15px;
+    background-color: #caa3abb8;
+
+    border: 0;
+}
+
+
+.g_write {
+    width: 450px;
+    padding: 10px;
+    margin-top: 170px;
+    margin-left: 220px;
+    /* background-color: bisque; */
+    float: left;
+}
+
+.g_write h1 {
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 30px;
+    color: #7575A9;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.g_write form {
+    width: 380px;
+}
+
+.input_font {
+    width: 350px;
+    height: 50px;
+    border: 0;
+    margin: 10px;
+    background-color: white;
+    outline: none;
+    border: 0;
+    border-width: 1px;
+}
+
+.input_font2 {
+    width: 350px;
+    height: 150px;
+    margin: 10px;
+    background-color: white;
+    resize: none;
+    outline: none;
+    border: 0;
+}
+
+::placeholder {
+    /* color: black; */
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: "秀風體W3";
+}
+
+.btn_send {
+    cursor: pointer;
+    background-color: #caa3ab;
+    color: #fafafa;
+    width: 350px;
+    height: 50px;
+    letter-spacing: 2px;
+    margin: 10px;
+    font-size: 30px;
+    font-family: "秀風體W3";
+    border: 0px;
+}
+
+.map {
+    float: right;
+    padding-top: 170px;
+    padding-bottom: 100px;
+    margin-right: 200px;
+
+}

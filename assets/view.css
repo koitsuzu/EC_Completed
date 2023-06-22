@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FAFAFA;
+    font-family: 'Shippori Mincho', serif;
+    font-family: "秀風體W3";
+
+}
+
+@font-face {
+    font-family: "秀風體W3";
+    src: url(秀風體W3.ttc);
+}
+
+.main{
+    
+    padding: 150px 200px;
+}
+
+.com{
+    background-color: #7575A9;
+    color: #FAFAFA;
+    font-size: 28px;
+    border: #7575A9;
+    margin-bottom: 50px;
+}
+
+
+
+.com table td{
+    padding: 5px;
+    margin: 5px 100px;
+    text-align: left;
+    width: 400px;
+}

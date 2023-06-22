@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+    margin: 0px auto;
+    max-width: 1600px;
+}
+
+body {
+    font-family: "秀風體W3";
+}
+
+@font-face {
+    font-family: "秀風體W3";
+    src: url(秀風體W3.ttc);
+}
+
+.main {
+    max-width: 1600px;
+    background-color: #071553;
+    padding: 100px;
+    padding-bottom: 0px;
+    overflow: hidden;
+    position: relative;
+    margin-top: -15px;
+}
+
+.main form {
+    text-align: center;
+    width: 800px;
+    min-height: 57%;
+    background-color: #fafafa;
+    padding: 35px 80px;
+    border-radius: 90px;
+    margin-top: -75px;
+}
+
+.main h1 {
+    padding: 30px;
+    letter-spacing: 2px;
+    color: #A39274;
+    font-weight: bold;
+}
+
+.frame {
+    margin-top: 7%;
+}
+
+.fill input {
+    padding: 10px;
+    margin: 15px;
+    border: none;
+    background-color: #DED5CB;
+    resize: none;
+    outline-color: #A39274;
+    border: 0;
+}
+
+::placeholder {
+    color: #A39274;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: "秀風體W3";
+}
+
+.buttonlook {
+    padding: 10px;
+}
+
+.buttonlook input {
+    text-align: center;
+    border: none;
+    width: 250px;
+    height: 40px;
+    background-color: #9EA5C5;
+    color: #071553;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "秀風體W3";
+}
+
+.loginsign {
+    margin: 20px;
+}
+
+.loginsign a {
+    text-decoration: none;
+    margin: 20px;
+    color: #071553;
+    list-style: none;
+    text-decoration: none;
+    margin: 20px;
+}
+
+
+
+
+.right_rabbit img {
+    float: right;
+    height: 400px;
+    width: 100px;
+    padding-top: 230px;
+}
+
+.left_rabbit img {
+    float: left;
+    height: 400px;
+    width: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.up_moon {
+    background-color: #071553;
+    overflow: hidden;
+    position: absolute;
+    top: 20px;
+    left: 1380px
+}
+
+.down_moon {
+    background-color: #071553;
+    overflow: hidden;
+    position: absolute;
+    top: 500px;
+    left: -60px;
+}
+
+.clear {
+    clear: both;
+}

@@ -1,0 +1,258 @@
+body {
+    font-family: "秀風體W3";
+}
+
+@font-face {
+    font-family: "秀風體W3";
+    src: url(秀風體W3.ttc);
+}
+
+.main {
+    margin-top: 10%;
+    max-width: 1600px;
+    /* background-color: #fafafa; */
+    /* background-color: antiquewhite; */
+    padding: 50px 270px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.g_img {
+    width: 450px;
+    padding: 30px;
+    padding-bottom: 100px;
+    text-align: center;
+    /* background-color: aliceblue; */
+}
+
+.g_img img {
+    width: 350px;
+    height: 350px;
+
+}
+
+.g_intro {
+    width: 450px;
+    padding: 10px;
+    padding-bottom: 100px;
+    /* background-color: aquamarine; */
+}
+
+.g_intro h1 {
+    padding: 20px 0 50px 0;
+    font-size: 40px;
+
+}
+
+.g_intro p {
+    padding: 12px;
+    font-size: 27px;
+
+}
+
+.price {
+    font-size: 32px;
+    color: #A39274;
+    font-weight: bold;
+}
+
+.btn_set {
+    display: flex;
+
+}
+
+.btn_font {
+    background-color: #CAA3AB;
+    margin: 0 10px 0 0;
+    padding-top: 10px;
+}
+
+.btn {
+    width: 50px;
+    background-color: #CAA3AB;
+    font-size: 30px;
+    border: none;
+    margin: 0;
+    color: #fafafa;
+}
+
+.qtyy {
+    margin: 0;
+    width: 80px;
+    background-color: #CAA3AB;
+    font-size: 30px;
+    border: none;
+    text-align: center;
+    color: #fafafa;
+}
+
+.btn_cart1 {
+    background-color: #CAA3AB;
+    color: #fafafa;
+    font-size: 25px;
+    border: none;
+    padding: 13px 30px;
+    margin: 0 10px 0 0;
+    font-family: "秀風體W3";
+}
+
+.btn_cart2 {
+    background-color: #071553;
+    color: #fafafa;
+    font-size: 25px;
+    border: none;
+    padding: 13px 30px;
+    margin: 0;
+    font-family: "秀風體W3";
+}
+
+.g_write {
+    width: 450px;
+    padding: 30px;
+    margin-top: 10px;
+    /* background-color: bisque; */
+}
+
+.g_write h1 {
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 30px;
+    color: #A39274;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.g_write form {
+    width: 380px;
+}
+
+.input_font {
+    width: 350px;
+    height: 50px;
+    border: 0;
+    margin: 10px;
+    background-color: #fafafa;
+    outline: none;
+    border: 0;
+    border-width: 1px;
+}
+
+.input_font2 {
+    width: 350px;
+    height: 150px;
+    margin: 10px;
+    background-color: #fafafa;
+    resize: none;
+    outline: none;
+    border: 0;
+}
+
+::placeholder {
+    color: black;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: "秀風體W3";
+}
+
+.rating {
+    width: 100px;
+    position: relative;
+    left: 130px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.rating input {
+    display: none;
+}
+
+.rating label {
+    display: block;
+    cursor: pointer;
+}
+
+.rating label:before {
+    content: '★';
+    position: relative;
+    display: flex;
+    /* flex-direction: row; */
+    font-size: 25px;
+    color: gray;
+    margin-right: 5px;
+}
+
+.rating label:after {
+    content: '★';
+    position: absolute;
+    display: flex;
+    flex-direction: row-reverse;
+    font-size: 25px;
+    color: rgb(243, 213, 114);
+    top: 0;
+    opacity: 0;
+    transition: .3s;
+    text-shadow: 0;
+}
+
+.rating label:hover:after,
+.rating label:hover~label:after,
+.rating input:checked~label:after {
+    opacity: 1;
+}
+
+.btn_send {
+    background-color: #071553;
+    color: #fafafa;
+    width: 350px;
+    height: 50px;
+    letter-spacing: 2px;
+    margin: 10px;
+    font-size: 30px;
+    font-family: "秀風體W3";
+}
+
+.g_comment {
+    width: 480px;
+    height: 430px;
+    /* margin: 10px; */
+    padding: 30px;
+    margin-top: 40px;
+    border: solid;
+    border-color: #A39274;
+    /* overflow: scroll; */
+
+    /* background-color: beige; */
+}
+
+.g_comment h1 {
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 37px;
+    color: #9d7171;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.viewbox {
+    color: #9d7171;
+    font-size: 25px;
+    padding: 15px;
+    border-bottom: solid;
+    margin: 10px;
+
+}
+
+/* .flower{
+    max-width: 1600px;
+    text-align: right;
+    position: fixed;
+    top: 300px;
+    left: 100%;
+    margin-left: -100px;
+    z-index: 30;
+}
+.flower img{
+    width: 100px;
+    height: 100px;
+} */

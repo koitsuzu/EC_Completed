@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+    margin: 0px auto;
+    max-width: 1600px;
+}
+
+@keyframes opac {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FAFAFA;
+    font-family: "秀風體W3";
+
+}
+
+.main {
+    max-width: 1600px;
+    background-color: #F2F0F0;
+    padding: 300px;
+    padding-bottom: 50px;
+    overflow: hidden;
+    position: relative;
+    margin-top: 20px;
+    padding-top: 120px;
+    height: max-content;
+
+
+
+}
+
+@font-face {
+    font-family: "秀風體W3";
+    src: url(秀風體W3.ttc);
+}
+
+a {
+    text-decoration: none;
+}
+
+.megaTab .tabContent {
+    display: none;
+    width: 800px;
+}
+
+.megaTab .tabContent.open {
+    display: block;
+}
+
+
+ul li {
+    list-style-type: none;
+}
+
+/* 內容大區塊 */
+.tabContent {
+    display: none;
+    height: max-content;
+
+    /* padding: 20px; */
+    background-color: #ffffff;
+    border-radius: 50px;
+
+}
+
+h1 {
+    text-align: center;
+    padding: 30px;
+    margin-bottom: -70px;
+    color: #071553;
+}
+
+
+.content1 {
+    padding: 60px;
+    font-size: 25px;
+    line-height: 55px;
+    color: #3f4146;
+    margin-bottom: -15px;
+}
+
+
+td input {
+    resize: none;
+    border: none;
+    outline: none;
+    font-family: "秀風體W3";
+    font-size: 23px;
+}
+
+.save {
+    margin-left: 24px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 23px;
+    color: #c9c9f1;
+
+
+}
+
+.save>ul {
+    margin-left: 295px;
+
+
+}
+
+.save>ul>li {
+    display: inline-block;
+
+}
+
+.save1 input {
+    text-decoration: none;
+    list-style: none;
+    color: #ffffff;
+    background-color: #071553;
+    border-radius: 5px;
+    font-family: "秀風體W3";
+    cursor: pointer;
+    font-size: 23px;
+    border: 0;
+}
+
+.save1 input:hover {
+    background-color: #7575A9;
+}
+
+
+
+.save2 {
+    text-decoration: none;
+    list-style: none;
+    color: #ffffff;
+    background-color: #071553;
+    border-radius: 5px;
+    font-family: "秀風體W3";
+    padding: 2px;
+}
+
+.save2:hover {
+    background-color: #7575A9;
+}
+
+.c1>td {
+    border-bottom-style: dashed;
+    border-color: #7575A9;
+    border-width: 2px;
+}
+
+.tabContent.open {
+    display: block;
+    padding-bottom: 40px;
+}

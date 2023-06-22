@@ -1,0 +1,398 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FAFAFA;
+    font-family: 'Shippori Mincho', serif;
+    font-family: "秀風體W3";
+
+}
+
+@font-face {
+    font-family: "秀風體W3";
+    src: url(秀風體W3.ttc);
+}
+
+.fade {
+    opacity: 0;
+}
+
+.slide-right,
+.slide-left {
+    width: 100%;
+}
+
+/***** Slide Right *****/
+.slide-right {
+    animation: 4s slide-right;
+}
+
+@keyframes slide-right {
+    from {
+        margin-left: -100%;
+    }
+
+    to {
+        margin-left: 0%;
+    }
+}
+
+/***** Slide Left *****/
+.slide-left {
+    animation: 4s slide-left;
+}
+
+@keyframes slide-left {
+    from {
+        margin-left: 100%;
+    }
+
+    to {
+        margin-left: 0%;
+    }
+}
+
+
+.right {
+    float: right;
+    width: 80%;
+    height: 500px;
+    position: relative;
+    margin-top: 10px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 170px;
+    color: black;
+}
+
+.bg1 {
+    position: absolute;
+    padding-left: 250px;
+    margin-top: 70px;
+}
+
+.c1 {
+    position: absolute;
+    margin-top: 70px;
+    padding-top: 40px;
+    line-height: 60px;
+    padding-left: 390px;
+    font-size: 25px;
+}
+
+.img1 {
+    position: absolute;
+    margin-top: -30px;
+    padding-top: 40px;
+    padding-left: 140px;
+
+    z-index: 1;
+}
+
+.name1 {
+    position: relative;
+    top: 120px;
+}
+
+
+
+.name1:hover::before {
+    position: absolute;
+    top: 10px;
+    left: -60px;
+    color: #7575A9;
+    font-size: 32px;
+    font-weight: bold;
+
+    line-height: 40px;
+    content: "李蓓安";
+    font-style: italic;
+
+    font-family: "秀風體W3";
+
+}
+
+.left {
+    float: left;
+    width: 85%;
+    height: 500px;
+    position: relative;
+
+
+}
+
+
+
+
+.c2 {
+    position: absolute;
+    margin-top: 95px;
+
+    line-height: 60px;
+    padding-left: 360px;
+    font-size: 25px;
+}
+
+
+.img2 {
+    position: absolute;
+
+    right: 130px;
+    top: -60px;
+    z-index: 1;
+}
+
+
+.bg2 {
+    position: absolute;
+    padding-left: 200px;
+
+    margin-top: 50px;
+}
+
+
+.name2 {
+    position: relative;
+    top: 100px;
+
+}
+
+
+
+.name2:hover::before {
+    position: absolute;
+    top: 80px;
+    left: 360px;
+    color: #7575A9;
+    font-size: 32px;
+    font-weight: bold;
+
+    line-height: 40px;
+    content: "楊羽柔";
+    font-style: italic;
+
+    font-family: "秀風體W3";
+
+}
+
+
+
+.c3 {
+    position: absolute;
+    margin-top: 65px;
+
+    line-height: 60px;
+    padding-left: 380px;
+    font-size: 25px;
+}
+
+
+.img3 {
+    position: absolute;
+
+    padding-top: 10px;
+    padding-left: 50px;
+
+    z-index: 1;
+
+}
+
+.bg3 {
+    position: absolute;
+    padding-left: 200px;
+}
+
+
+
+.name3 {
+    position: relative;
+
+
+}
+
+
+
+.name3:hover::before {
+    position: absolute;
+    top: 60px;
+    left: -30px;
+    color: #7575A9;
+    font-size: 32px;
+    font-weight: bold;
+    /* background: #7575A9; */
+    padding: 8px;
+    border-radius: 5px;
+    line-height: 40px;
+    content: "邱芷柔";
+    font-style: italic;
+
+    font-family: "秀風體W3";
+
+}
+
+.bm {
+    margin-top: 0px;
+    margin-bottom: 70px;
+}
+
+
+.bg4 {
+    position: absolute;
+    padding-left: 250px;
+    /* margin-top: 100px; */
+}
+
+.c4 {
+    position: absolute;
+    margin-top: 40px;
+
+    line-height: 60px;
+    padding-left: 390px;
+    font-size: 25px;
+}
+
+.img4 {
+    position: absolute;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-left: 140px;
+
+    z-index: 1;
+}
+
+.name4 {
+    position: relative;
+    top: 120px;
+}
+
+
+
+.name4:hover::before {
+    position: absolute;
+    top: 0px;
+    left: -40px;
+    color: #7575A9;
+    font-size: 32px;
+    font-weight: bold;
+
+
+    line-height: 40px;
+    content: "柯可妮";
+    font-style: italic;
+
+    font-family: "秀風體W3";
+
+}
+
+
+
+
+.c5 {
+    position: absolute;
+    margin-top: 65px;
+
+    line-height: 60px;
+    padding-left: 360px;
+    font-size: 25px;
+}
+
+
+.img5 {
+    position: absolute;
+    padding-left: 740px;
+    right: 260px;
+    top: -90px;
+    z-index: 1;
+}
+
+
+.bg5 {
+    position: absolute;
+    padding-left: 200px;
+
+    margin-top: 50px;
+}
+
+
+.name5 {
+    position: relative;
+    top: 100px;
+
+}
+
+
+
+.name5:hover::before {
+    position: absolute;
+    top: 85px;
+    left: 300px;
+    color: #7575A9;
+    font-size: 32px;
+    font-weight: bold;
+
+    line-height: 40px;
+    content: "連翊瑄";
+    font-style: italic;
+
+    font-family: "秀風體W3";
+
+}
+
+
+
+.c6 {
+    position: absolute;
+    margin-top: 65px;
+
+    line-height: 60px;
+    padding-left: 380px;
+    font-size: 25px;
+}
+
+
+.img6 {
+    position: absolute;
+
+    padding-top: 30px;
+    padding-left: 100px;
+
+    z-index: 1;
+
+}
+
+.bg6 {
+    position: absolute;
+    padding-left: 200px;
+}
+
+
+
+.name6 {
+    position: relative;
+
+
+}
+
+
+
+.name6:hover::before {
+    position: absolute;
+    top: 30px;
+    left: -90px;
+    color: #7575A9;
+    font-size: 32px;
+    font-weight: bold;
+
+    line-height: 40px;
+    content: "呂芯穎";
+    font-style: italic;
+
+    font-family: "秀風體W3";
+
+}
+
+
+.clear {
+    clear: both;
+}

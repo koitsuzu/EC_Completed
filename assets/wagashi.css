@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+    margin: 0px auto;
+    max-width: 1600px;
+}
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FAFAFA;
+    font-family: 'Shippori Mincho', serif;
+    font-family: "秀風體W3";
+}
+
+@font-face {
+    font-family: "秀風體W3";
+    src: url(秀風體W3.ttc);
+}
+
+section {
+    position: relative;
+}
+
+.head {
+    float: none;
+    margin: 0px;
+    margin-top: 100px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 100px;
+    position: relative;
+
+
+
+}
+
+.fuku {
+    margin: 50px;
+    margin-right: 100px;
+    margin-left: 100px;
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    color: #071553;
+    white-space: nowrap;
+}
+
+.shape-ex2 {
+    animation-name: fade;
+    animation-duration: 4s;
+    position: absolute;
+    text-align: center;
+    left: 250px;
+    right: 250px;
+    top: 350px;
+    z-index: 1;
+    color: aliceblue;
+    font-size: 80px;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+
+/*商品圖排版*/
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    min-height: 100px;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 300px;
+    max-height: 300px;
+    text-decoration: none;
+    transition: transform 0.5s;
+}
+
+a:hover,
+a:visited,
+a:link,
+a:active {
+    text-decoration: none;
+}
+
+.image {
+    position: relative;
+    display: inline-block;
+}
+
+.item:hover {
+    transform: scale(1.1);
+}
+
+.tt {
+    font-size: 20px;
+    text-align: center;
+    list-style: none;
+    color: #7575A9;
+
+}
+
+.tt:hover {
+    color: #071553;
+}
+
+
+main {
+    width: 100%;
+    margin: 0;
+    padding: 0px;
+}
